@@ -1,0 +1,338 @@
+/* General Layout and Alignment */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #343a40; /* Dark background */
+  color: #adb5bd; /* Lighter gray for text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('/1126753.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.Birthday-Parties{
+  background: url('/1126753.jpg')
+  
+}
+
+h1 {
+  font-size: 4em;
+  color: #fff; /* White text */
+  margin-bottom: 10px;
+}
+
+p {
+  color: #ffffff; /* Light gray text */
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #0dcaf0; /* Light blue button */
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.5em;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #ffc107; /* Yellow on hover */
+}
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #495057; /* Dark grayish background */
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ffffff; /* White text */
+}
+
+.about p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #adb5bd; /* Lighter gray text */
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.about ul li {
+  background-color: #6c757d; /* Muted green */
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white; /* White text */
+}
+
+/* Features Section */
+.features {
+  padding: 60px 20px;
+  background-color: #495057; /* Darker background */
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #ffc107; /* Yellow text */
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.feature-card {
+  background-color: #6c757d; /* Muted greenish cards */
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff; /* White text */
+  flex: 1;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.feature-card h3 {
+  color: #0dcaf0; /* Light blue for titles */
+}
+
+.feature-card p {
+  color: #adb5bd; /* Lighter gray text */
+}
+
+/* Services Section */
+.services {
+  padding: 60px 20px;
+  background-color: #212529; /* Dark background */
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #ffc107; /* Yellow text */
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.service-card {
+  background-color: #6c757d; /* Muted green cards */
+  padding: 30px 20px;
+  border-radius: 10px;
+  color: #ffffff; /* White text */
+  flex: 1;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.service-card h3 {
+  color: #0dcaf0; /* Light blue for titles */
+}
+
+.service-card p {
+  color: #adb5bd; /* Lighter gray text */
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 60px 20px;
+  background-color: #495057; /* Darker gray */
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #ffffff; /* White text */
+}
+
+.testimonial-carousel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #6c757d; /* Muted greenish card */
+  padding: 30px 20px;
+  border-radius: 10px;
+  color: #ffffff; /* White text */
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 60px 20px;
+  background-color: #495057; /* Dark gray background */
+}
+
+.gallery h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #ffc107; /* Yellow text */
+  text-align: center;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Call to Action Section */
+.cta {
+  padding: 60px 20px;
+  background-color: #146d7f; /* Light blue background */
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: white; /* White text */
+}
+
+.cta-btn {
+  background-color: #ab8a2a; /* Yellow CTA button */
+  color: white;
+  padding: 20px 40px;
+  font-size: 1.6em;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #fd7e14; /* Red on hover */
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 20px;
+  background-color: #212529; /* Dark background */
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ffc107; /* Yellow text */
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 15px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border: none;
+  background-color: #495057; /* Darker gray background */
+  color: #fff; /* White text */
+}
+
+.contact .submit-btn {
+  background-color: #fd7e14; /* Red submit button */
+  color: white;
+  padding: 20px 40px;
+  font-size: 1.4em;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #495057; /* Dark gray background */
+  color: white;
+  text-align: center;
+}
+
+footer .social-media a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+footer .social-media a:hover {
+  color: #fd7e14; /* Red on hover for social media links */
+}
